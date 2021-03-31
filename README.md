@@ -3,6 +3,7 @@ This is my attempt at cloning the Creality Ender 5 Plus printer. This printer wi
 - Build volume: 310mm x 310mm x 350mm
 - TMC2209 step motor drivers for quiet operation
 - 0.9 degree NEMA17 stepper motors for greater accuracy
+- Direct Drive assembly - No more bowden tubes! Should help printing TPU without any considerations
 - SKR 1.4 Turbo control board
 - TFT35 Touch Screen display
 - External MOSFET components to power the hotend and the heated bed (to protect the components on the SKR board)
@@ -29,3 +30,5 @@ This is my attempt at cloning the Creality Ender 5 Plus printer. This printer wi
   - [ ] External MOSFETs
   - [ ] Heated Bed
   - [ ] Hotend Assembly
+
+![image](https://user-images.githubusercontent.com/17118188/113151056-b76e9680-9202-11eb-80e0-381878f2ae20.png)
