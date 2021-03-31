@@ -12,5 +12,22 @@ This is my attempt at cloning the Creality Ender 5 Plus printer. This printer wi
 - [X] Model the design in Sketchup
 - [X] Export and print the individual components (STL format)
 - [X] Create a bill of materials based on the design
+- [X] Clone and configure the marlin firmware for the board
 - [ ] Design the "control box" to house all the electronics below the print bed
 - [ ] Create drag chains for cable management (keeping in mind: We want the hotend to be "hot swappable" so have components use connectors)
+
+## Completed Tasks
+- [X] Tap and drill holes in the aluminum pieces as required
+- [X] Assemble the frame of the printer
+- [ ] Install mechanical components (Stepper motors, belts, etc...)
+- [X] Test the electronic components:
+  - [X] Control board 
+  - [X] TFT Display
+  - [X] Power Supply
+  - [ ] Stepper Motors
+    - [X] Z-Steppers
+    - [ ] Y-Stepper
+    - [X] X-Stepper
+  - [ ] External MOSFETs
+  - [ ] Heated Bed
+  - [ ] Hotend Assembly
