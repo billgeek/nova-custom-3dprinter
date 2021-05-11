@@ -9,6 +9,11 @@ This is my attempt at cloning the Creality Ender 5 Plus printer. This printer wi
 - External MOSFET components to power the hotend and the heated bed (to protect the components on the SKR board which are only rated for 10A)
 - NO sensorless homing: Limit switches will be used as they are more reliable
 
+The **Bill of Materials** can be found here:
+https://docs.google.com/spreadsheets/d/1B5keSqVwSLgc5OjsFatlqAnYNtMWsLssTLB85XMptbM/edit?usp=sharing
+
+I will document the build process shortly and add to this page.
+
 ## To-do List
 - [X] Model the design in Sketchup
 - [X] Export and print the individual components (STL format)
