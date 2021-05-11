@@ -39,6 +39,8 @@ This project taught me a lot of how printers and electronics work in general. Be
 - On the SKR1.4, instead of using one driver for both Z motors, I decided to use E1 (second extruder) to drive the second Z motor. This is actually super easy to do, take a look at the included config.
 - Instead of setting firmware to invert some axes, I decided to swap pins instead. Inverting in firmware works, but I didn't want to reflash yet again.
 - ALWAYS make sure you test your ABL probe on a breadboard or any other way without connecting it to your printer. I had made a mistake with my initial voltage divider and measured 8V from the probe. Had this been installed, I would've fried my SKR!
+- The power supply I ordered only has two DC outputs, so I chose to use one output for only the heated bed and the other for the hotend heater and the mainboard.
+- The MOSFET modules are absolutely essential when using an SKR board. These boards have integrated MOSFETs for the heated bed and hotend, but they're rated at 10A max. Eith my bed at 240W and using 24V, that would put me right at the maximum current rating. I'd rather replace a $15 module than a $85 board!
 
 ## Still to do
 There are a few things I have yet to fix:
