@@ -26,4 +26,8 @@ Under construction - There are a handful of STL files and Sketchup designs in th
 I used the 2.0.x branch of Marlin when building the firmware for the printer. The configuration files are stored here in this repository.
 
 ## Gallery
+I've uploaded a few pics to Google Photos during and after the build:
+
+https://photos.app.goo.gl/cp9zkkoZYTewc5xc9
+
 ![image](https://user-images.githubusercontent.com/17118188/117857136-74b8c900-b25a-11eb-9464-94b7c1c22436.png)
