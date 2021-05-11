@@ -22,5 +22,8 @@ Under construction - I will update the Build process once completed.
 ## Printed Parts
 Under construction - There are a handful of STL files and Sketchup designs in this repository, but they've been updated and are scattered all over my PC. I need to go through all of the parts and update the files as needed.
 
+## Firmware
+I used the 2.0.x branch of Marlin when building the firmware for the printer. The configuration files are stored here in this repository.
+
 ## Gallery
 ![image](https://user-images.githubusercontent.com/17118188/113151056-b76e9680-9202-11eb-80e0-381878f2ae20.png)
