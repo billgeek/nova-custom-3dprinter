@@ -39,3 +39,9 @@ This project taught me a lot of how printers and electronics work in general. Be
 - On the SKR1.4, instead of using one driver for both Z motors, I decided to use E1 (second extruder) to drive the second Z motor. This is actually super easy to do, take a look at the included config.
 - Instead of setting firmware to invert some axes, I decided to swap pins instead. Inverting in firmware works, but I didn't want to reflash yet again.
 - ALWAYS make sure you test your ABL probe on a breadboard or any other way without connecting it to your printer. I had made a mistake with my initial voltage divider and measured 8V from the probe. Had this been installed, I would've fried my SKR!
+
+## Still to do
+There are a few things I have yet to fix:
+- [ ] I need to install some drag chains so the "umbilical cord" stops dragging against the steel rods and to look somewhat better.
+- [ ] Design a new electronics enclosure to move the box hanging from the side to the bottom, similar to the Ender 5 setup.
+- [ ] Due to how the movements work, I can add Foamboard to the back, left and front with minimal effort to make an enclosure, but I'll still need to create a hood / roof for the X/Y axes.
