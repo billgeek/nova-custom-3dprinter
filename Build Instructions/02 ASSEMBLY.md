@@ -54,4 +54,7 @@ To assemble the base of the frame:
 - Attach the entire X and Y axis assemblies to the rest of the printer frame using 4 x M5x45mm bolts.
 - Complete the attaching of the YAxisCover.stl bottom screw into the side of the 2040 extrusion from the uprights.
 
+## Final Touches
+- Install your heated bed to the build platform using the tapered M4 screws, springs and levelling knobs of your choice. (You can either purchase some or find some available on Thingiverse)
+
 Congratulations, you have completed the build! Up next is the Electronics.
