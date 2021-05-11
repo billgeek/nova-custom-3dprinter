@@ -13,4 +13,5 @@ Find the drilling and tapping instructions here: https://github.com/billgeek/nov
 Instructions for assembling all mechanical parts can be found here: https://github.com/billgeek/nova-custom-3dprinter/blob/main/Build%20Instructions/02%20ASSEMBLY.md
 
 ## Electronics
-Under construction
+
+There are no detailed instructions for the electronics, but here's a simple to-do list of tasks that need to be completed: https://github.com/billgeek/nova-custom-3dprinter/blob/main/Build%20Instructions/03%20ELECTRONICS.md
