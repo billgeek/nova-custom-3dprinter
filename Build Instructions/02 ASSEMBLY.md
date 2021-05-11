@@ -47,7 +47,7 @@ To assemble the base of the frame:
 
 ## Build Platform
 - Using the remaining two 500mm 2020 extrusions and the two 400mm extrusions, place the shorter ones down and place the longer ones on top at a distance equal to the mounting holes of the bed.
-- Attach everything using M5 bolts and install your bed using the recess screws and bed levelling nuts.
+- Attach all the extrusions together using M5 bolts. Do not install your bed yet as there's still work to do and you probably don't want to damage it.
 - Attach the two LeadScrewNutHolder.stl to the sides using TNuts. Try to get them exactly in the center, but don't worry too much at this stage, you will likely adjust them later in the build process.
 - Install three POM wheels on each of the four ZAxisPlate.stl, taking care to install the single wheel (under the "bump") using an eccentric nut.
 - On each end of the sides of extrusion that are "sticking out", attach your assembled ZAxisPlate.stl using M5 bolts and nuts.
