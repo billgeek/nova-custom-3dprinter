@@ -1,34 +1,33 @@
-# Ender 5 Clone
-This is my attempt at cloning the Creality Ender 5 Plus printer. This printer will have the following specs:
+# "Nova"
+Nova is an Ender 5 Plus inspired 3D printer. While I "borrowed" some ideas of the movements, I designed the entire printer using Sketchup.
+
+## Specifications
 - Build volume: 310mm x 310mm x 350mm
-- TMC2209 step motor drivers for quiet operation
-- 0.9 degree NEMA17 stepper motors for greater accuracy
-- Direct Drive assembly - No more bowden tubes! Should help printing TPU without any considerations
-- SKR 1.4 Turbo control board
+- TMC2209 step motor drivers
+- 0.9 degree NEMA17 stepper motors (X and Y axes)
+- Direct Drive assembly 
+- SKR 1.4 Turbo mainboard
 - TFT35 Touch Screen display
-- External MOSFET components to power the hotend and the heated bed (to protect the components on the SKR board)
-- NO sensorless homing: Limit switches will be used as they are more reliable
+- External MOSFET components to power the hotend and the heated bed
+- Sensorless homing
 
-## To-do List
-- [X] Model the design in Sketchup
-- [X] Export and print the individual components (STL format)
-- [X] Create a bill of materials based on the design
-- [X] Clone and configure the marlin firmware for the board
-- [ ] Design the "control box" to house all the electronics below the print bed
-- [ ] Create drag chains for cable management (keeping in mind: We want the hotend to be "hot swappable" so have components use connectors)
-- [X] Tap and drill holes in the aluminum pieces as required
-- [X] Assemble the frame of the printer
-- [ ] Install mechanical components (Stepper motors, belts, etc...)
-- [X] Test the electronic components:
-  - [X] Control board 
-  - [X] TFT Display
-  - [X] Power Supply
-  - [ ] Stepper Motors
-    - [X] Z-Steppers
-    - [ ] Y-Stepper
-    - [X] X-Stepper
-  - [ ] External MOSFETs
-  - [ ] Heated Bed
-  - [ ] Hotend Assembly
+## Bill of Materials
+See the below Google Sheet for the bill of materials:
 
-![image](https://user-images.githubusercontent.com/17118188/113151056-b76e9680-9202-11eb-80e0-381878f2ae20.png)
+https://docs.google.com/spreadsheets/d/1B5keSqVwSLgc5OjsFatlqAnYNtMWsLssTLB85XMptbM/edit?usp=sharing
+
+## Build Process
+Under construction - I will update the Build process once completed.
+
+## Printed Parts
+Under construction - There are a handful of STL files and Sketchup designs in this repository, but they've been updated and are scattered all over my PC. I need to go through all of the parts and update the files as needed.
+
+## Firmware
+I used the 2.0.x branch of Marlin when building the firmware for the printer. The configuration files are stored here in this repository.
+
+## Gallery
+I've uploaded a few pics to Google Photos during and after the build:
+
+https://photos.app.goo.gl/cp9zkkoZYTewc5xc9
+
+![image](https://user-images.githubusercontent.com/17118188/117857136-74b8c900-b25a-11eb-9464-94b7c1c22436.png)
