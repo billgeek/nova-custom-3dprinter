@@ -30,4 +30,11 @@ I've uploaded a few pics to Google Photos during and after the build:
 
 https://photos.app.goo.gl/cp9zkkoZYTewc5xc9
 
+## Lessons Learned
+This project taught me a lot of how printers and electronics work in general. Below are some takeaways I think are worth mentioning:
+- Not all proximity sensors are made equal! The PL08-N sensors I received operate slightly differently than the standard "round" sensors and as such, I have the light permanently on due to disabling pull-up resistors.
+- Squareness of the frame is critical. If your frame is not square, you will guaranteed not have decent quality. Use a T-square or something similar to ensure your build is perfectly square.
+- On the SKR1.4, instead of using one driver for both Z motors, I decided to use E1 (second extruder) to drive the second Z motor. This is actually super easy to do, take a look at the included config.
+- Instead of setting firmware to invert some axes, I decided to swap pins instead. Inverting in firmware works, but I didn't want to reflash yet again.
+
 ![image](https://user-images.githubusercontent.com/17118188/117857136-74b8c900-b25a-11eb-9464-94b7c1c22436.png)
