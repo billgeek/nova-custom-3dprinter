@@ -1,6 +1,8 @@
 # "Nova"
 Nova is an Ender 5 Plus inspired 3D printer. While I "borrowed" some ideas of the movements, I designed the entire printer using Sketchup.
 
+![image](https://user-images.githubusercontent.com/17118188/117857136-74b8c900-b25a-11eb-9464-94b7c1c22436.png)
+
 ## Specifications
 - Build volume: 310mm x 310mm x 350mm
 - TMC2209 step motor drivers
@@ -37,6 +39,3 @@ This project taught me a lot of how printers and electronics work in general. Be
 - On the SKR1.4, instead of using one driver for both Z motors, I decided to use E1 (second extruder) to drive the second Z motor. This is actually super easy to do, take a look at the included config.
 - Instead of setting firmware to invert some axes, I decided to swap pins instead. Inverting in firmware works, but I didn't want to reflash yet again.
 - ALWAYS make sure you test your ABL probe on a breadboard or any other way without connecting it to your printer. I had made a mistake with my initial voltage divider and measured 8V from the probe. Had this been installed, I would've fried my SKR!
-
-
-![image](https://user-images.githubusercontent.com/17118188/117857136-74b8c900-b25a-11eb-9464-94b7c1c22436.png)
