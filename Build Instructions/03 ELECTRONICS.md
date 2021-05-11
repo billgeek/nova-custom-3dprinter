@@ -1,6 +1,6 @@
 # Electronics
 
-I'm not going to go into detail on how to install electronics for a 3D printer as there are so many detailed articles and videos in the subject. Instead, here's a quick to-do list of what I had to do:
+I'm not going to go into detail on how to install electronics for a 3D printer as there are so many detailed articles and videos on the subject available online. Instead, here's a quick to-do list of what I had to do:
 
 - [ ] Install the hotend assembly of your choice. I went for an assembled Ender 3 hotend (future upgrade opportunity here!) and the Hero Me Gen 5 system found here: https://www.thingiverse.com/thing:4460970
 - [ ] Optionally install your ABL, inductive probe, proximity sensor or BLTouch of choice.
