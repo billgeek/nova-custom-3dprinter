@@ -19,10 +19,15 @@ See the below Google Sheet for the bill of materials:
 https://docs.google.com/spreadsheets/d/1B5keSqVwSLgc5OjsFatlqAnYNtMWsLssTLB85XMptbM/edit?usp=sharing
 
 ## Build Process
-Under construction - I will update the Build process once completed.
+You can find the build instructions in this repo at the following location:
+https://github.com/billgeek/nova-custom-3dprinter/tree/main/Build%20Instructions
+
+Alternatively you can follow the Google Docs version of the same instructions:
+https://docs.google.com/document/d/1tVqh7jPagdjaWtX-vD9JAcbRu_ECWRMzhDe-mzgvMuw/edit?usp=sharing
 
 ## Printed Parts
-Under construction - There are a handful of STL files and Sketchup designs in this repository, but they've been updated and are scattered all over my PC. I need to go through all of the parts and update the files as needed.
+Please refer to the Bill of Materials sheet linked above for a list of printed parts. The STL files can be found here:
+https://github.com/billgeek/nova-custom-3dprinter/tree/main/STL
 
 ## Firmware
 I used the 2.0.x branch of Marlin when building the firmware for the printer. The configuration files are stored here in this repository.
